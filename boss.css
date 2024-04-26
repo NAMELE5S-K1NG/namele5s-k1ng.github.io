@@ -1,0 +1,79 @@
+.content-b {
+
+    background-image: url("Rectangle 2.svg");
+    background-size: cover;
+    margin-top: -3.4%;
+    width: 62.6%;
+ margin-left: 19.1%; 
+}
+.bosses {
+    margin-left: 1%;
+    font-size: 50px;
+    color: rgb(209, 209, 209);
+}
+
+.hr1 {
+    margin-top: -3%;
+    width: 95%;
+}
+.boss-text {
+    margin-left: 1%;
+    font-size: 25px;
+    color: rgb(209, 209, 209);
+}
+.description {
+    margin-left: 1%;
+    color: rgb(158, 154, 95);
+    font-size: 40px;
+    display: block;
+    justify-content: left;
+}
+.description-text {
+    margin-left: 1%;
+    font-size: 25px;
+    color: rgb(209, 209, 209);
+}
+.descr-list {
+    font-size: 25px;
+    color: rgb(209, 209, 209); 
+}
+.description-text2 {
+    margin-left: 1%;
+    font-size: 25px;
+    color: rgb(209, 209, 209);
+}
+.bosses1 {
+    margin-left: 1%;
+    color: rgb(158, 154, 95);
+    font-size: 40px;
+    display: block;
+    justify-content: left;
+}
+.bosses-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.bosses-box a {
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    &:hover {
+        color: goldenrod;
+    }
+}
+.bosses-box img {
+    padding: 25px 40px;
+    width: 210px;
+    height: 150px;
+}
+.soul_of_cinder {
+    display: flex;
+    justify-content: center;
+}
+.boss{
+display: flex;
+flex-direction: column;
+
+}

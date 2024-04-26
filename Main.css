@@ -1,112 +1,120 @@
 body {
-    background-image: url("background.svg");
+    background-image: url("background 88.svg");
 
     background-size: cover;
 
             background-repeat: no-repeat;
             background-attachment: fixed;
-        
+        width: 99%;
+}
+
+.wiki-footer {
+    margin-left: -30%;
+    background-color:rgba(0, 70, 102, 0.897);
+    width: 160% auto;
+}
+
+.logo-ds3 {
+    margin-left: 38%;
+    width: 300px;
 }
 
 .content {
 
     background-image: url("Rectangle 2.svg");
     background-size: cover;
-    
-    width: 62%;
- margin-left: 19%;
- margin-top: -2%;
+    background-repeat: no-repeat;
+    width: 62.6%;
+ margin-left: 19.1%;
+ 
  
 }
 
-.video_rewiev {
-
-    display: flex;
-    margin-left: 3%;
-}
 
 .video-gg {
-
-    border: yellow solid 1px;
-    
+    width: 72.5%;
+    margin-left: 4.5%;
+    margin-top: 2%;
 }
 
-.info-of-game {
-display: flex;
-    background-image: url("Rectangle 2.svg");
-    background-size: cover;
-    justify-content: center;
-    
-    width: 20%;
-    margin-left: 68%;
-    
-}
+
 
 
 
 .DarkIII {
 
     color: #E1E1E1;
-    font-size: 32;
+    font-size: 300%;
+    color: #c4c4c4;
     margin-left: 1%;
 }
 
-.info-game {
-   
-    height: 450px;
-
-    width: 300px;
+.hr_1 {
+    width: 99%;
 }
-
-.fan_box_info {
-    margin-left: 20%;
-    width: 300px;
-    height: 400px;
-    border: #BCBCBC solid 1px;
-}
-
 
 .text-ds3 {
- font-size: 18px;
+ font-size: 110%;
     color: #E1E1E1;
-    margin-left: 1%;
-    width: 650px;
+    margin-left: 5%;
+    width: 50%;
 }
 
 
 .DS3-text {
-font-size: 20;
-    margin-left: 1%;
+font-size: 150%;
+    margin-left: 5%;
     color: #E1E1E1;
-    width: 650px;
-    border: #e2d300 solid 1px;
+    width: 85%;
+    
 }
 
 .reg-log {
 
-    margin-right: 20%;
+    margin-right: 19.5%;
     display: flex;
+    justify-content: right;
     
-    justify-content: flex-end;
+
+}
+.p-login {
+
+    text-align: center;
+    font-size: 20px;
+    margin-top: 6%;
+}
+
+.p-register {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3%;
 }
 
 .login {
-
-     background-image: url("Group 8.svg");
-     background-size: cover;
-     height: 50px;
-
-     width: 130px;
+     height: 30px;
+     width: 90px;
+     border: white solid 1px;
+     margin-right: 1%;
+     text-decoration: none;
+     color: white;
+     border-radius: 5%;
+      &:hover{
+        color: gold;
+        border-color: gold;
+     }
 }
 
 .register {
-
- background-image: url("Group 4.svg");
- background-size: cover;
-
-    height: 50px;
-
-    width: 195px;
+    height: 33px;
+    width: 145px;
+    color: white;
+    text-decoration: none;
+    background-color: #505050;
+    border-radius: 5px;
+      &:hover{
+        color: gold;
+        background-color: rgb(104, 104, 104);
+     }
 }
 
 .topless {
@@ -118,25 +126,55 @@ font-size: 20;
 
 .img-DS3 {
     background-size: cover;
-
-    margin-left: 17%;
-
-    
+    background-image: url("Rectangle 6.svg");
+    width: 62.6%;
+    margin-left: 19.1%;
 }
+
+.discord {
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px; 
+}
+.discord:hover {
+    color: goldenrod;
+}
+
+
 
 .main_text {
     
     display: flex;
-
-    border: #e2d300 solid 1px;
+    
+    
  
 }
 
-.linia {
+.hr_2 {
     
-    width: 800px;
-    margin-right: 30%;
+    width: 95%;
 
+}
+
+.hr_3 {
+
+    width: 95%;
+}
+
+.hr_4 {
+
+    width: 95%;
+}
+
+.hr_5 {
+
+    width: 95%;
+}
+
+.hr_6 {
+
+    width: 95%;
 }
 
 .gaming-process {
@@ -144,11 +182,11 @@ font-size: 20;
     width: 300px;
     color: rgb(158, 154, 95);
     font-size: 40;
-    border: #e2d300 solid 1px;
+    
 }
 
 .proecting {
-margin-left: 1%;
+    margin-left: 1%;
     color: rgb(158, 154, 95);
     font-size: 40;
     display: block;
@@ -327,30 +365,45 @@ width: 850px;
     margin-left: 1%;
 }
 
+.sys-treb-p {
+    margin-left: 1%;
+    color: rgb(158, 154, 95);
+    font-size: 40;
+    display: block;
+    justify-content: left;
+}
+
 .ds3_fanbox {
-    width: 300px;
+    margin-left: 5%;
+    height: 56%;
+    width: 31%;
     margin-right: 4%;
     border: #dfdfdf solid 1px;
     background-image: url("Rectangle 2.svg");
     background-size: cover;
  }
  
-      
+      .info-game {
+   
+    height: 100%;
+
+    width: 100%;
+}
  
   .info_table {
      
      margin-top: 0.1%;
-     width: 300px;
-     height: 400px;
+     width: 100%;
+     height: 50%;
      border-collapse: collapse;
      padding: 3px;
-     border: 1px solid rgb(124, 124, 124);
+     border: 1px solid rgb(255, 255, 255);
      border-top: none;
   }
  
   .td1 {
      color: #c0bd8e;
-     font-size: 13.5px;
+     font-size: 100%;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
     border: rgb(255, 255, 255) solid 1px;
@@ -367,9 +420,12 @@ width: 850px;
   .td2 {
      
    color: #c4c4c4;
-   font-size: 13.5px;
+   font-size: 100%;
    font-family: Arial, Helvetica, sans-serif;
-   
+   border-left: none;
+   border-right: none;
+   border-bottom: none;
+   border-top: #dfdfdf 1px;
  
   }
  
@@ -382,7 +438,7 @@ width: 850px;
  border: rgb(255, 255, 255) solid 1px;
      border-right: none;
      color: #c0bd8e;
-     font-size: 13.5px;
+     font-size: 100%;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
      border-left: none;
@@ -396,9 +452,9 @@ width: 850px;
   
  .td4 {
    color: #c4c4c4;
-   font-size: 13.5px;
+   font-size: 100%;
    font-family: Arial, Helvetica, sans-serif;
-    
+    border: none;
  }
  
  .text_td4 {
@@ -411,7 +467,7 @@ width: 850px;
      border-right: none;
      border-left: none;
      color: #c0bd8e;
-     font-size: 13.5px;
+     font-size: 100%;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
      
@@ -426,9 +482,9 @@ width: 850px;
  .td6 {
  
    color: #c4c4c4;
-   font-size: 13.5px;
+   font-size: 80%;
    font-family: Arial, Helvetica, sans-serif;
-    
+    border: none;
  
  }
  
@@ -442,7 +498,7 @@ width: 850px;
      border-right: none;
      border-left: none;
      color: #c0bd8e;
-     font-size: 13.5px;
+     font-size: 100%;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
      
@@ -451,13 +507,14 @@ width: 850px;
  
  .text_td7 {
     margin-bottom: 3%;
-    margin-left: 5%;
+    margin-left: 10%;
  }
  
  .td8 {
    color: #c4c4c4;
-   font-size: 13.5px;
+   font-size: 100%;
    font-family: Arial, Helvetica, sans-serif;
+   border: none;
  }
  
  .text_td8 {
@@ -470,7 +527,7 @@ width: 850px;
     border-right: none;
     border-left: none;
     color: #c0bd8e;
-     font-size: 13.5px;
+     font-size: 100%;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
     
@@ -485,14 +542,14 @@ width: 850px;
  
  .td10 {
    color: #c4c4c4;
-   font-size: 13.5px;
+   font-size: 100%;
    font-family: Arial, Helvetica, sans-serif;
- 
+   border: none;
  }
  
  .text_td10 {
      margin-bottom: 3%;
-    margin-left: 10%;
+    margin-left: 1%;
  }
  
  .td11 {
@@ -500,7 +557,7 @@ width: 850px;
     border-right: none;
     border-left: none;
     color: #c0bd8e;
-     font-size: 13.5px;
+     font-size: 100%;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
     
@@ -514,9 +571,9 @@ width: 850px;
  
  .td12 {
    color: #c4c4c4;
-   font-size: 13.5px;
+   font-size: 100%;
    font-family: Arial, Helvetica, sans-serif;
- 
+   border: none;
  }
  
  .text_td12 {
@@ -531,7 +588,7 @@ width: 850px;
     border-left: none;
     border-bottom: none;
     color: #c0bd8e;
-     font-size: 13.5px;
+     font-size: 100%;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
     
@@ -565,15 +622,15 @@ width: 850px;
           border-left: none;
           border-bottom: none;
           color: #c0bd8e;
-          font-size: 13.5px;
+          font-size: 100%;
           font-family: Arial, Helvetica, sans-serif;
           font-weight: bold;
-          width: 100px;
+          width: 100%;
        }
        
        .text_td15 {
         margin-left: 5%;
-         font-size: 14;
+         font-size: 94%;
        }
  
        .td16 {
@@ -582,7 +639,7 @@ width: 850px;
              border-left: none;
              border-bottom: none;
              color: #c4c4c4;
-   font-size: 13.5px;
+   font-size: 100%;
    font-family: Arial, Helvetica, sans-serif;
              
           
@@ -591,7 +648,7 @@ width: 850px;
           .text_td16 {
              margin-top: 3%;
              margin-bottom: 3%;
-             margin-left: 15%;
+             margin-left: 1%;
           }
  
           .td17 {
@@ -600,14 +657,14 @@ width: 850px;
                 border-left: none;
                 border-bottom: none;
                 color: #c0bd8e;
-                font-size: 13.5px;
+                font-size: 100%;
                 font-family: Arial, Helvetica, sans-serif;
                 font-weight: bold;
              }
              
              .text_td17 {
              
-                margin-left: 20%;
+                margin-left: 10%;
              }
  
              .td18 {
@@ -616,14 +673,14 @@ width: 850px;
                    border-left: none;
                    border-bottom: none;
                    color: #c4c4c4;
-                   font-size: 13.5px;
+                   font-size: 100%;
                    font-family: Arial, Helvetica, sans-serif;
                 }
                 
                 .text_td18 {
                    margin-top: 3%;
                    margin-bottom: 3%;
-                   margin-left: 15%;
+                   margin-left: 1%;
                 }
  
                 .td19 {
@@ -632,16 +689,14 @@ width: 850px;
                       border-left: none;
                       border-bottom: none;
                       color: #c0bd8e;
-          font-size: 13.5px;
-          font-family: Arial, Helvetica, sans-serif;
-          font-weight: bold;
-                      
-                   
+                      font-size: 100%;
+                      font-family: Arial, Helvetica, sans-serif;
+                      font-weight: bold;
                    }
                    
                    .text_td19 {
                    
-                      margin-left: 20%;
+                      margin-left: 25%;
                    }
  
                    .td20 {
@@ -650,7 +705,7 @@ width: 850px;
                          border-left: none;
                          border-bottom: none;
                          color: #c4c4c4;
-                         font-size: 13.5px;
+                         font-size: 100%;
                          font-family: Arial, Helvetica, sans-serif;
                          
                       
@@ -659,7 +714,7 @@ width: 850px;
                       .text_td20 {
                          margin-top: 3%;
                          margin-bottom: 3%;
-                         margin-left: 15%;
+                         margin-left: 1%;
                       }
  
                       .metacritic2 {
@@ -671,3 +726,130 @@ width: 850px;
                          
                          color: #ffee00;
                       }
+
+                      .sys_treb {
+
+                        color: #c4c4c4;
+                        border-collapse: collapse;
+
+                        background-image: url("Rectangle 299.svg");
+                        background-size: cover;
+                      }
+
+                    .sys_treb td {
+                        width: 500px;
+                        font-size: 20px;
+                    }
+                    td {
+                        border: rgb(109, 109, 109) outset 1px;
+                    }
+                    .td-1 {
+                        opacity:0%; 
+                        border-top: none;
+                        border-right: none;
+                    }
+                    .td-2 {
+                        font-size: 30px;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-3 {
+                        font-size: 30px;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-4 {
+                        font-size: 25px;
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-5 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-6 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-7 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-8 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-9 { 
+                        border-left: none;
+                        border-right: none;   
+                    }
+                    .td-10 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-11 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-12 {
+                        border-left: none;
+                        border-right: none; 
+                    }
+                    .td-13 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-14 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-15 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-16 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-17 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-18 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-19 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-20 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .td-21 {
+                        border-left: none;
+                        border-right: none;
+                    }
+                      .screenshots-p {
+                        margin-left: 1%;
+                        color: rgb(158, 154, 95);
+                        font-size: 40;
+                        display: block;
+                        justify-content: left;
+                      }
+                      .screenshots {
+
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                    .photo-box-1 {
+                        margin-left: 3.5%;
+                    }
+                    .photo-box-1 img {
+                        width: 250px;
+                        height: 150px;
+                        padding: 30px 10px;
+                    }
