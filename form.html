@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>Регистрация</title>
+</head>
+<style>
+        body{
+            background-color:rgb(0, 0, 0);
+        }
+        .content{
+    background-color: rgb(207, 93, 0);
+    width: 600px;
+    height: 400px;
+    }
+    .content h1{
+        color: rgb(0, 0, 0);
+        margin-top: 10%;
+    }
+    .reg{
+        margin-top: 5%;
+    }
+    .login{
+        width: 200px;
+    }
+    .t1{
+        color: rgb(0, 0, 0);
+    }
+    #reg-btn{
+        background-color:rgb(251, 255, 0);
+        width: 250px;
+        height: 40px;
+        border-radius: 20px;
+        &:hover{
+            background-color: blue;
+            color: aliceblue;
+        }
+    }
+    .conf{
+        font-size: 16px;
+        &:hover{
+            color: red;
+        }
+    }
+    </style>
+<body>
+    <center>
+        <div class="content">
+        <h1><p class="reg">Регистрация</p></h1>
+        <form>
+         <p>
+            <input type="email" placeholder="E-mail" class="login">
+        </p>
+    
+        <p>
+            <input type="password" placeholder="Придумайте пароль" class="login"> 
+        </p>
+    
+        <p>
+            <input type="password" placeholder="Повторите пароль" class="login">
+        </p>
+        <label style="color: rgb(0, 0, 0);">Я человек
+            <input type="checkbox" checked="checked" name="remember">
+            
+        </label>
+        <p class="t1">Создавая учетную запись,<br> вы соглашаететсь с нашим
+             <a class="conf" href="#">Условия и конфиденциальностью</a>.</p>
+        <button id="reg-btn">Зарегистрироваться</button>
+        </form>
+    </div>
+    </center>
+</body>
+</html>
