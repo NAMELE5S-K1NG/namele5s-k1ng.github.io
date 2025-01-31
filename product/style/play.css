@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Play';
+    src: local('Play Regular'), local('Play-Regular'), url('play/playregular.woff2') format('woff2'), url('play/playregular.woff') format('woff'), url('play/playregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Play';
+    src: local('Play Bold'), local('Play-Bold'), url('play/playbold.woff2') format('woff2'), url('play/playbold.woff') format('woff'), url('play/playbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
