@@ -4,6 +4,10 @@
     height: 200px;
     background-color: rgb(200, 200, 200);
     border-radius: 50px;
+    &:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
 }
 
 .lang{
@@ -47,6 +51,8 @@
     background-color: inherit;
     border: inherit;
     border: inherit;
+    width: 150px;
+    margin-left: 75px;
     font-size: 20px;
     font-family: Play;
     margin-top: -20px;
@@ -88,11 +94,11 @@
     hover:nav a{
         cursor: pointer;}
 }
- .title{
+.title{
     margin-top: 30px;
- }
- 
- .form-wrapper{
+}
+
+.form-wrapper{
     margin-top: 100px;
     height: 200px;
     max-width: 1400px;
@@ -104,9 +110,9 @@
     flex-direction: column;
     align-items: center;
     gap: 68px;
- }
+}
 
- 
+
 
 #order{
 display: flex;
