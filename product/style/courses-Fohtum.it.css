@@ -16,6 +16,7 @@
     flex-direction: column;
     margin-top: 5px;
     margin-left: 40px;
+    cursor:default;
     width: 220px;
     height: 50px;
     border-radius: 50px;
@@ -27,6 +28,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    cursor:default;
 }
 
 #courses_table{
@@ -43,6 +45,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    cursor:default;
     margin-left: 20px;
     color: rgb(74, 74, 74);
 }
@@ -67,10 +70,15 @@
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
+    cursor:default;
     width: 295px;
     margin-left: 2px;
     margin-top: 10px;
     background-color: rgba(214, 214, 214, 0.856);
+}
+
+.zagolova{
+    cursor: default;
 }
 
 /* ФОРМА ОБРАТНОЙ СВЯЗИ СЦУКО */
