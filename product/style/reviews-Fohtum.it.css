@@ -22,7 +22,7 @@
 
 .review img{
     border-radius: 50%;
-    width: 200px;
+    max-width: 150px;
 }
 
 
