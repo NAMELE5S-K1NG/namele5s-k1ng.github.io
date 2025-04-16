@@ -38,7 +38,9 @@
     margin-top: 50px;
     flex-wrap: wrap;
     gap: 20px;
+    /*
     border: 2px red solid;
+    */
 }
 
 .price{
